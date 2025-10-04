@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@keyframes dropIn {
+    from { transform: translateY(-230px) scale(1.1); }
+    to { transform: translateY(0) scale(1); }
+}
+.animate-drop-in {
+    animation: dropIn 0.3s ease-out;
+}
